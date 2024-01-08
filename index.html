@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="/images/icons8-webtoon-cloud-120.png">
+        <title>Manage and Search Your Pending Task In Clicks!</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <div class="wrap">
+            <section class="heading">
+                <p class="title">Webtoon</p>
+                <p class="subtitle">Manage and Search Your Pending Task In Clicks</p>
+            </section>
+            <section class="taskmanager">
+                <div class="search">
+                    <form  class="search-form">
+                        <input type="text" class="search-task" name="searchtask" placeholder="Search Task" autocomplete="off">
+                        <i class="bi bi-x-circle reset"></i>
+                    </form>
+                </div>
+                <div class="tasks">
+                    <ui class="task-list">
+                        <li class="task">
+                            <span>Learn Javascript</span>
+                            <i class="bi bi-trash-fill delete"></i>
+                        </li>
+                        <li class="task"><span>Learn HTML5</span>
+                            <i class="bi bi-trash-fill delete"></i>
+                        </li>
+                        <li class="task"><span>Learn CSS</span>
+                            <i class="bi bi-trash-fill delete"></i>
+                        </li>
+                        <li class="task"><span>Learn React.js</span>
+                            <i class="bi bi-trash-fill delete"></i>
+                        </li>
+                        <li class="task"><span>Learn Databses SQL/No-SQL</span>
+                            <i class="bi bi-trash-fill delete"></i>
+                        </li>
+                    </ui>
+                    <form class="add-form" >
+                        <input type="text" name="task" placeholder="Add Task">
+                        <input type="submit" value="Add">
+                    </form>
+                </div>
+                <div class="message">
+                    <p class="msg"></p>
+                    <button class="clear">Clear All</button>
+                </div>
+            </section>
+        </div>
+        </main>
+        <script src="./index.js"></script>
+    </body>
+</html>
